@@ -70,6 +70,8 @@ class BniHashing
 			$char = chr(((ord($char) - ord($keychar)) + 256) % 128);
 			$result .= $char;
 		}
+
+		
 		return $result;
 	}
 
