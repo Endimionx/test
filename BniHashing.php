@@ -2,6 +2,7 @@
 class BniHashing
 {
 
+	//test yaa
 	const TIME_DIFF_LIMIT = 300; // 5 menit
 
 	public static function hashData(array $json_data, $cid, $secret) {
